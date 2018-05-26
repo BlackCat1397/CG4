@@ -1,0 +1,2 @@
+/Users/rpavlov/Documents/Unity/CG4/Temp/UnityVS_obj/Debug/UnityEditor.StandardEvents.csprojResolveAssemblyReference.cache
+/Users/rpavlov/Documents/Unity/CG4/Temp/UnityVS_obj/Debug/UnityEditor.StandardEvents.csproj.CoreCompileInputs.cache
