@@ -5,7 +5,8 @@
         _MainTex ("Texture", 2D) = "white" {}
         _Color ("Color", Color) = (1,1,1,1)
         _ClearColor ("Clear color", Color) = (0.5, 0.5, 0.5, 1)
-
+        _FogStart ("Fog start", Float) = 20
+        _FogEnd ("Fog end", Float) = 100
     }
     SubShader
     {
@@ -38,13 +39,17 @@
             sampler2D _MainTex;
             float4 _Color;
             float4 _MainTex_ST;
+
+            float _FogStart;
+            float _FogEnd;
+
             
             v2f vert (appdata v)
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-                UNITY_TRANSFER_FOG(o,o.vertex);
+//                UNITY_TRANSFER_FOG(o,o.vertex);
 
                 o.uv = v.uv;
                 return o;

@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{4C31DB80-AD90-353F-0583-AD4C725034CF}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KubeShader.shader">
+    <Files>
+      <File FileName="Assets/Scripts/KubeShader.shader" Line="67" Column="10" />
+      <File FileName="Assets/Scripts/NewUnlitShader.shader" Line="59" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CG4 PreferredExecutionTarget="Unity.Editor" />
+</Properties>
